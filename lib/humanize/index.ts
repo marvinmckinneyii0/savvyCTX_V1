@@ -1,5 +1,6 @@
 import { buildHumanizeSystemPrompt, HumanizeContentType, HumanizeVoice } from './prompt';
-import { HumanizeScan, localHumanize, scanAiPatterns } from './patterns';
+import { localHumanize } from './local';
+import { HumanizeScan, scanAiPatterns } from './patterns';
 
 export interface HumanizeOptions {
   text: string;
